@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./completion%20pic/)
+![](./completion%20pic/testimonial-grid-section-screenshot.jpeg)
 
 
 ### Links
