@@ -1,0 +1,151 @@
+:root {
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+
+    --medium-weight: 500;
+    --semibold-weight: 600;
+
+    --font-family1: "Barlow Semi Condensed", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Light-grayish-blue);
+    font-size: 13px;
+    font-family: var(--font-family1);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: 4rem 1.5rem;
+}
+
+.cards {
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.cards .quotes {
+    position: absolute;
+    opacity: 50%;
+    right: 1rem;
+    top: 0;
+    
+}
+
+.cards .author {
+    display: flex;
+    align-items: center;
+}
+
+.cards .author img {
+    border-radius: 50%;
+    margin-right:  1rem;
+    height: 40px;
+    border: 2px solid var(--Light-grayish-blue);
+
+}
+
+.author {
+    padding-bottom: 1rem;
+}
+
+.name {
+    font-size: 14px;
+}
+
+.sub-title {
+    font-size: 12px;
+    opacity: 50%;
+}
+
+.main-info {
+    font-weight: var(--semibold-weight);
+    font-size: 22px;
+    padding-bottom: 1rem;
+}
+
+.secondary-info {
+    font-size: 14px;
+    opacity: 70%;
+    padding-bottom: 1rem;
+}
+
+.one {
+    background-color: var(--Moderate-violet);
+    color: var(--White);
+}
+
+.two {
+    background-color: var(--Very-dark-grayish-blue);
+    color: var(--Light-gray);
+}
+
+.three {
+    background-color: var(--White);
+    color: var(--Very-dark-grayish-blue);
+}
+
+.four {
+    background-color: var(--Very-dark-blackish-blue);
+    color: var(--Light-grayish-blue);
+}
+
+.five {
+    background-color: var(--White);
+    color: var(--Very-dark-grayish-blue);
+}
+
+@media (min-width: 640px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+        margin: 6rem 6rem;
+        padding: 1rem;
+    }
+
+    .one {
+        grid-column: 1 / span 2;
+    }
+
+    .three {
+        grid-column: 1;
+                
+    }
+
+    .four {
+        grid-column: 2 / span 2;
+    }
+
+    .five {
+        grid-column: 4;
+        grid-row: 1 / span 2;
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
