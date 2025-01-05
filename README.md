@@ -1,6 +1,6 @@
-# Frontend Mentor - Testimonials grid section solution
+# Testimonials grid section
 
-This is My solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is My solution to creating a Testimonials grid section (similar to a review page on a website). 
 
 
 ## Table of contents
@@ -39,10 +39,9 @@ Users should be able to:
 
 ### Continued development
 
-After a lot of looking online and refereing to my notes I remebered some of the GRID layouts etc but this is certainly a subject i need to dust off the cobwebs and keep praticing on. 
+After a lot of looking online and referring to my notes I remembered some of the GRID layouts etc but this is certainly a subject i need to dust off the cobwebs and keep practising on. 
 
 
 ## Author
 
-- Frontend Mentor - [@BozJR](https://www.frontendmentor.io/profile/BozJR)
-
+- GitHub Profile - https://github.com/BozJR?tab=repositories
